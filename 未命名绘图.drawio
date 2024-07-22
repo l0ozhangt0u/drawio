@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T11:45:06.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Bse22hv4PZ2y1hY6-g3N" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T11:52:35.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kRia6KH5SAGRxxrSZnuz" version="24.7.1" type="github">
   <diagram name="第 1 页" id="R89yEjDwKOoKwJcucYFU">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,35 +85,44 @@
         <mxCell id="hzZ26zTn2NyyHhRIeYlo-27" value="做此模块的背景：销售能力不同，业务希望将销冠的操作流程可复制化，让尾部销售有同样的转化手段和流程，因此开发了一套规定销售转化动作的规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="1169" width="830" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-1" value="任务状态流转" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-1" value="任务状态流转" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-2" value="数据看板" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-2" value="数据看板" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-3" value="定时任务提醒" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-3" value="定时任务提醒" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-4" value="定时任务生成" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-4" value="定时任务生成" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-5" value="定时任务回收" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-5" value="定时任务回收" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="1760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-6" value="销售做了哪些动作后，通过mq消息通知到任务管理模块进行任务状态的变化，并生成下一条任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-6" value="销售做了哪些动作后，通过mq消息通知到任务管理模块进行任务状态的变化，并生成下一条任务" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-7" value="销售可查看当下有哪些任务未完成，和已完成的总数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-7" value="销售可查看当下有哪些任务未完成，和已完成的总数" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-8" value="每天下午6点提醒销售那些任务没有完成" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-8" value="每天下午6点提醒销售那些任务没有完成" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-9" value="分发的线索第一天未接通，在第二天生成拨打任务，成单后的回访任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-9" value="分发的线索第一天未接通，在第二天生成拨打任务，成单后的回访任务" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-11" value="第一天的拨打任务、回访任务的回收" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNvxY-9Rg9rAL69-ulFZ-11" value="第一天的拨打任务、回访任务的回收" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F_AyRzejdhTGbR8LCG6j-1" value="如何解决的重复分发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="698" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_AyRzejdhTGbR8LCG6j-2" value="如何解决超发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="735" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F_AyRzejdhTGbR8LCG6j-3" value="如何解决无效分发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="780" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
